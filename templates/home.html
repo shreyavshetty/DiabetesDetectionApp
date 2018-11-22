@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Diabetes Detection</title>
-  </head>
-  <body>
-    <h1> Diabetes Detection </h1>
-    <p> Flask is Fun </p>
-  </body>
-</html>
+<html>
+<body>
+<p><h1 align = "center">Diabetes Detection</h1></p>
 
+<form method=post action="" >
+
+
+<table align="center">
+
+  {% for field in form %}
+    <tr>
+    <td>{{ field.label }}</td><td>{{ field }}</td>
+    </tr>
+  {% endfor %}
+</table>
+<!--
+<p align="center"><input type=submit value=submit></form></p>
+<p align="center" >
+-->
+{% if result != None %}
+{{result}}
+{% endif %}
+</p>
+</form>
+</body>
+</html>
