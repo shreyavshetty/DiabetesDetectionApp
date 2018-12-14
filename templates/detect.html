@@ -1,0 +1,68 @@
+<html>
+<link href="{{url_for('static',filename="css/detect.css")}}" rel="stylesheet">
+<body>
+<p><h1 align = "center">Diabetes Detection</h1></p>
+<div class="form_class">
+<form method=post action="" >
+  {{ form.pregnancies.label }}
+  <br>
+  {{ form.pregnancies }}
+  <br>
+  <br>
+  {{ form.glucose.label }}
+  <br>
+  {{ form.glucose }}
+  <br>
+  <br>
+  {{ form.bloodPressure.label }}
+  <br>
+  {{ form.bloodPressure }}
+  <br>
+  <br>
+  {{ form.skinThickness.label }}
+  <br>
+  {{ form.skinThickness }}
+  <br>
+  <br>
+  {{ form.insulin.label }}
+  <br>
+  {{ form.insulin }}
+  <br>
+  <br>
+  {{ form.bmi.label }}
+  <br>
+  {{ form.bmi}}
+  <br>
+  <br>
+  {{ form.diabetesPedigreeFunction.label }}
+  <br>
+  {{ form.diabetesPedigreeFunction }}
+  <br>
+  <br>
+  {{ form.age.label }}
+  <br>
+  {{ form.age }}
+  <br>
+  <br>
+  {{ form.submit }}
+  </form>
+</div>
+  <!--
+<table align="center">
+
+  {% for field in form %}
+    <tr>
+    <td>{{ field.label }}</td><td>{{ field }}</td>
+    </tr>
+  {% endfor %}
+</table>
+-->
+
+
+<div class = "result_class">
+{% if result != None %}
+{{result}}
+{% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Diabetes Detection</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicons -->
+    <link href="{{url_for('static',filename="img/favicon.png")}}" rel="icon">
+    <link href="{{url_for('static',filename="img/apple-touch-icon.png")}}" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="{{url_for('static',filename="lib/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="{{url_for('static',filename="lib/font-awesome/css/font-awesome.min.css")}}" rel="stylesheet">
+    <link href="{{url_for('static',filename="lib/animate/animate.min.css")}}" rel="stylesheet">
+    <link href="{{url_for('static',filename="lib/ionicons/css/ionicons.min.css")}}" rel="stylesheet">
+    <link href="{{url_for('static',filename="lib/owlcarousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
+    <link href="{{url_for('static',filename="lib/lightbox/css/lightbox.min.css")}}" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="{{url_for('static',filename="css/style.css")}}" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="container-fluid">
+        <div id="logo" class="pull-left">
+          <h1><a href="#intro" class="scrollto">Diablo</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="#intro">Home</a></li>
+            <li><a href="#featured-services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/healthbg7.jpeg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Diabetes Detection</h2>
+                <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat</p>
+                <a href="dashboard.html" class="btn-get-started scrollto">Detect</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/healthbg2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Diabetes Detection</h2>
+                <p> Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
+
+</p>
+                <a href="dashboard.html" class="btn-get-started scrollto">Detect</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/healthbg6.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Diabetes Detection</h2>
+                <p>As of 2015, 30.3 million people in the United States, or 9.4 percent of the population, had diabetes. More than 1 in 4 of them didn’t know they had the disease. Diabetes affects 1 in 4 people over the age of 65. About 90-95 percent of cases in adults are type 2 diabetes.</p>
+                <a href="dashboard.html" class="btn-get-started scrollto">Detect</a>
+              </div>
+            </div>
+          </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title">Diabetes Detection</h4>
+            <p class="description">This application aims to detect the presence of diabetes by making use of Machine Learning Technology.
+              We have developed a Web Application for detection of the diabetes based on the parameters that the user enters.  It predicts whether it is benign or malignant .by learning from the parameters. We have developed a deep neural network model to classify if the user has diabetes or not.
+The model is trained based on the PIMA Indian Diabetes dataset from  National Institute of Diabetes and Digestive and Kidney Diseases; Includes cost data (donated by Peter Turney).
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">9880125575</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">hegde.shibani8@gmail.com"</a></p>
+              <p><a href="mailto:info@example.com">shreyav4@gmail.com"</a></p>
+              <p><a href="mailto:info@example.com">sourabhraja97@gmail.com"</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="{{url_for('static',filename="lib/jquery/jquery.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/jquery/jquery-migrate.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/easing/easing.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/superfish/hoverIntent.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/superfish/superfish.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/wow/wow.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/waypoints/waypoints.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/counterup/counterup.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/owlcarousel/owl.carousel.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/isotope/isotope.pkgd.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/lightbox/js/lightbox.min.js")}}"></script>
+  <script src="{{url_for('static',filename="lib/touchSwipe/jquery.touchSwipe.min.js")}}"></script>
+  <!-- Template Main Javascript File -->
+  <script src="{{url_for('static',filename="js/main.js")}}"></script>
+
+</body>
+</html>
