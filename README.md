@@ -7,7 +7,7 @@ For the front end HTML5,CSS and bootstrap has been used. Flask based python is t
 **Homepage**
 ![alt text](https://github.com/shreyavshetty/DiabetesDetectionApp/blob/master/homepage.jpg "homepage")
 **Dashboard**
-![alt text](https://github.com/shreyavshetty/DiabetesDetectionApp/blob/master/forms.jpg "form")
+![alt text](https://github.com/shreyavshetty/DiabetesDetectionApp/blob/master/form.jpg "form")
 ![alt text](https://github.com/shreyavshetty/DiabetesDetectionApp/blob/master/details.jpg "details")
 
 
